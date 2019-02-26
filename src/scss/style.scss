@@ -1,0 +1,186 @@
+@import "~bootstrap/scss/bootstrap";
+
+/* Global
+----------------------------*/
+
+body {
+  margin-bottom: 50px;
+}
+
+section {
+  margin: 30px 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+
+
+/* Navigation
+----------------------------*/
+.navbar {
+  background-color:#FFC300;
+}
+.navbar-light {
+.navbar-brand {
+  color: #054067;
+  margin-right: 10vw;
+  font-family: 'Poppins';
+}
+.navbar-brand:hover {
+  color: #900C3F;
+}
+.navbar-nav { 
+  .nav-link {
+    color: #900C3F;
+  
+  }
+  .nav-link:hover {
+    color: #054067;
+  }
+  }
+}
+#a-0 {
+  transform: translate3d(0px, -0.01px, 0px);
+  width: 75vw;
+  margin: 0 auto;
+}
+h1 {
+  span {
+    overflow: hidden;
+  }
+}
+.a-0-h1 {
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 13.88889vw;
+  line-height: 13.88889vw;
+  letter-spacing: -.04em;
+  color: #FFC300;
+  transform: translate3d(0px,0%, 0px);
+}
+.from {
+  color: #900C3F;
+  float: right;
+}
+.berlin
+ {
+   color: #054067;
+ }
+
+.nav-main {
+  margin-bottom: 30px;
+
+}
+
+/* Carousel
+----------------------------*/
+
+#carousel {
+
+  .carousel-inner {
+    .carousel-item {
+      border-radius: 6px;
+      height: 30vw;
+    }
+
+    img {
+      border-radius: 6px;
+    }
+  }
+}
+
+/* Jumbotron
+-----------------------------*/
+
+.jumbotron {
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: #054067;
+  font-family: 'Poppins';
+ h1 {
+   display: inline-block;
+   color:#054067;
+   background-color: #FFC300;
+   padding: 0 1rem;
+   border-radius: 6px;
+ }
+ p {
+   color: #ddd;
+  
+ }
+ .btn-primary {
+   color: #ddd;
+   background-color: #900C3F;
+   border-color: #900C3F;
+ }
+}
+.jumbotron:hover {
+  background-color: #FFC300;
+  h1:hover {
+    color: #FFC300;
+    background-color: #900C3F;
+  }
+  p:hover {
+    color: #900C3F;
+  }
+}
+
+/* Blockquote
+-----------------------------*/
+
+#blockquote {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.blockquote {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 4px solid #efefef;
+}
+
+/* Album
+-----------------------------*/
+
+#photos {
+  margin-bottom: 0;
+}
+
+.album {
+  .album-item {
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+/* Progress Bars
+-----------------------------*/
+
+.progress {
+  margin-bottom: 20px;
+}
+
+/* Contact Form
+-----------------------------*/
+
+#contact-form {
+  margin-top: 40px;
+}
+
+label {
+  font-weight: 700;
+}
+
+/* Tab Panel
+-----------------------------*/
+
+.tab-content {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 1rem;
+}
